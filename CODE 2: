@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class boundary : MonoBehaviour
+{
+    public static float leftside=-1.83f;
+    public static float rightside=1.83f;
+    public float internalRight;
+    public float internalLeft;
+    void Update()
+    {
+        internalRight=rightside;
+        internalLeft=leftside;
+    }
+}
